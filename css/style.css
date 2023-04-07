@@ -1,0 +1,39 @@
+body {
+    background-color: #002d1c;
+}
+
+
+.skip a {
+    background-color: beige;
+    position: absolute;
+    top: -40px;
+}
+.skip a:focus {
+    top: 20px;
+}
+
+
+
+nav{
+    width: 100%;
+    background-color: #89ca63;
+}
+nav ol {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+}
+
+
+.currentPage {
+    box-sizing: border-box;
+    border: solid 5px black;
+}
