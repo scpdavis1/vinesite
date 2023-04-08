@@ -1,8 +1,14 @@
+/* Overall body rules */
 body {
+    color: white;
     background-color: #002d1c;
+}
+h1 {
+    text-align: center;
 }
 
 
+/* skip to main content */
 .skip a {
     background-color: beige;
     position: absolute;
@@ -13,27 +19,117 @@ body {
 }
 
 
-
+/* Nav bar  */
 nav{
     width: 100%;
     background-color: #89ca63;
+    padding: 5px;
 }
 nav ol {
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
-}
-nav li {
-    display: inline;
+    list-style: none;
 }
 nav a {
     text-decoration: none;
+    padding: 5px;
 }
-
-
 .currentPage {
     box-sizing: border-box;
     border: solid 5px black;
+    border-radius: 30px;
 }
+
+
+/* set up MMM grid */
+.MMMContent {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.desc {
+    grid-column: 1/-1;
+}
+h2 {
+    text-align: center;
+}
+
+
+/* formatting image content in MMM, 
+includes hover text on image */
+.hasOverlay {
+    position: relative;
+}
+.hasOverlay img,
+.hasOverlay p {
+    width: 200px;
+    height: 200px;
+}
+.hasOverlay p {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    text-align: center;
+    background-color: rgb(73, 57, 57);
+
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hasOverlay p:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* heading and description for each page */
+.desc, .songList {
+    background-color: rgb(73, 57, 57);
+    border: solid 2px rgb(73, 57, 57);
+    border-radius: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+/* Song lists flex box area... Change to inline block on higher res */
+.songList {
+    display: block;
+    overflow: scroll;
+    height: 200px;
+    text-align: left;
+}
+.songList li {
+    padding: 5px;
+}
+
+
+/* Bio Page */
+.bio {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.bio img {
+    width: 200px;
+    height: 200px;
+}
+.bio p {
+    grid-area: 2/span 2;
+} 
+.bio .platform {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(73, 57, 57);
+    border-radius: 30px;
+}
+.bio .platform img {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
