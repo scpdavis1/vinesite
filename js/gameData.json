@@ -1,0 +1,189 @@
+[
+    {
+        "H1": "Mario's Mystery Meat",
+        "imgSection": [
+            {
+                "desc": {
+                    "H2": "Storyline",
+                    "P": "Mario's Mystery Meat is a ROM hack of Super Mario World made by Vinesauce viewer 'Eminus'. This game takes all of the best Vinesauce references and mashes them into a story that follows Sponge as he goes on an adventure to find meat for spaghetti. Click or Tap the images for more info!!!"
+                },
+                "imgOverlay": {
+                    "IMG": [
+                        "./images/content/MarioMystery/lore.png"
+                    ],
+                    "P": [
+                        "Mario and Luigi have an endless supply of spaghetti. However, they always end up lacking meat."
+                    ]
+                }
+            },
+            {
+                "desc": {
+                    "H2": "Level Transitions",
+                    "P": "Level transitions are a big part of what make this a unique experience. Here is a list of Level transitions. navigate to an image for a more in depth description."
+                },
+                "imgOverlay": {
+                    "IMG": [
+                        "./images/content/MarioMystery/transitions/trans1.png",
+                        "./images/content/MarioMystery/transitions/trans2.png",
+                        "./images/content/MarioMystery/transitions/trans3.png",
+                        "./images/content/MarioMystery/transitions/trans4.png",
+                        "./images/content/MarioMystery/transitions/trans5.png",
+                        "./images/content/MarioMystery/transitions/trans6.png",
+                        "./images/content/MarioMystery/transitions/trans7.png",
+                        "./images/content/MarioMystery/transitions/trans8.png",
+                        "./images/content/MarioMystery/transitions/trans9.png"
+                    ],
+                    "P": [
+                        "The first transition. Entering the meat. Will finding meat for Spaghetti be your only quest?",
+                        "After a short quiz with the 5 headed duck, you enter a closet to the Smile ghost living in meat.",
+                        "You fall through howard the duck...",
+                        "You exit meat you entered in the beginning via Mr. Dinks spaghetti.",
+                        "After the Earthbound segment, you enter the spaghetti chasing the meat you just exited, all for your spaghetti.",
+                        "Ending the spaghetti zone leads to a point and click childrens game interface. We think the meat is causing visual hallucinations.",
+                        "This level is in itself a transition. You cannot win. You are chased by fire until the bitter end, which ends up being nothing but a horrible nightmare for Sponge.",
+                        "Plot line change, after you exit Chatland, you have to fight their invading army and save their princess. The transition is in the form of a image slideshow.",
+                        "Finishing the UN Squadron section and defending Chatland brings you to your final task, save the princes by finding and destroying vineRizon and meat..."
+                    ]
+                }
+            }
+        ],
+        "songSection": {
+            "desc": {
+                "H2": "Soundtrack",
+                "P": "This Youtube video is a compilation of all songs that are used in Mario's Mystery Meat. The soundtrack is full of a variety of genres to fit a certain mood each level tries to have."
+            },
+            "link": "https://www.youtube.com/embed/upX2lG69Er4",
+            "songNames": [
+                "Super Mario World - Title Screen",
+                "Kid Kleets - London",
+                "Dear You - Higurashi",
+                "Earthbound - Giygas' Lair",
+                "Legend of Zelda ALLTP - Pink Rabbit",
+                "Metroid - Item Room",
+                "Metroid Zero Mission - Brinstar",
+                "Legend of Zelda Links Awakening - Tail Cave",
+                "Silent Hill - basement",
+                "Final Fantasy V - Beyond the Deep Blue Sea",
+                "Jesus Bleibet Meine Freude - Bach",
+                "Earthbound - Unsettling Opponent",
+                "Undertale - Megalovania",
+                "Earthbound - Franky",
+                "Earthbound - Flash of a Memory",
+                "Earthworm Jim 2 - Puppy Love",
+                "Super Mario Bros 3 - Swimming (sausage mix)",
+                "Mario's Early Years - Athlethic (Hell Mix 1-3)",
+                "Super Mario Bros 2 - Pick a character (Bruh Mix)",
+                "VLDC7 - Worst Map",
+                "Pokemon HGSS - Viridian City",
+                "Super Mario RPG - Forest Maze (PWM Demo)",
+                "Chrono Trigger - Burn Bobonga (Less notes)",
+                "Chrono Trigger - Burn Bobonga",
+                "Il Maniero Spettrale - Forest",
+                "Super Mario Bros 2 - Jar",
+                "Bill Evans - Time Remembered",
+                "Chrono Trigger - Lavos Stirs",
+                "Final Castle (Custom)",
+                "U.N. Squadron - The Minks",
+                "Megaman X - Maverick Select 2",
+                "VLDC9 - Abstract Map",
+                "Front Mission Gun Hasard - Tension",
+                "Super Mario World - Castle (rewind mix)",
+                "Cursed Cathedral (Custom)",
+                "Hong Kong 97 - Main Theme",
+                "Radical Dreamers - Dungeon Ambience",
+                "Chrono Triger - Underground Sewer (Water Ambience)",
+                "Luis Fonsi - Despacito",
+                "Kirby's Dreamland 3 - Ominous Wind",
+                "Romancing Saga 3 - Byunei's Nest",
+                "Shining Force II - Intro",
+                "Rudra no Hihou - The Spirit Chaser",
+                "Joe Jackson - Steppin Out"
+            ]
+        }
+    },
+    {
+        "H1": "testGame",
+        "imgSection": [
+            {
+                "desc": {
+                    "H2": "Test Image Section 1",
+                    "P": "This is the description for the test section with the above title!"
+                },
+                "imgOverlay": {
+                    "IMG": [
+                        "./images/content/romHacks/DM_title.jpg",
+                        "./images/content/romHacks/MGB_title.jpg",
+                        "./images/content/romHacks/MMM_lore.png",
+                        "./images/content/romHacks/MMM_Chatland.png",
+                        "./images/twitch-logo.png"
+                    ],
+                    "P": [
+                        "this is the first image",
+                        "this is the second image",
+                        "this is the third image",
+                        "this is the fouyrth image",
+                        "this is the fifth image"
+                    ]
+                }
+            },
+            {
+                "desc": {
+                    "H2": "Test Image Section 2",
+                    "P": "This is the description for the test section with the above title!"
+                },
+                "imgOverlay": {
+                    "IMG": [
+                        "./images/content/romHacks/DM_title.jpg",
+                        "./images/content/romHacks/MGB_title.jpg",
+                        "./images/content/romHacks/MMM_lore.png",
+                        "./images/content/romHacks/MMM_Chatland.png",
+                        "./images/twitch-logo.png"
+                    ],
+                    "P": [
+                        "this is the first image",
+                        "this is the second image",
+                        "this is the third image",
+                        "this is the fouyrth image",
+                        "this is the fifth image"
+                    ]
+                }
+            },
+            {
+                "desc": {
+                    "H2": "Test Image Section 3",
+                    "P": "This is the description for the test section with the above title!"
+                },
+                "imgOverlay": {
+                    "IMG": [
+                        "./images/content/romHacks/DM_title.jpg",
+                        "./images/content/romHacks/MGB_title.jpg",
+                        "./images/content/romHacks/MMM_lore.png",
+                        "./images/content/romHacks/MMM_Chatland.png",
+                        "./images/twitch-logo.png"
+                    ],
+                    "P": [
+                        "this is the first image",
+                        "this is the second image",
+                        "this is the third image",
+                        "this is the fouyrth image",
+                        "this is the fifth image"
+                    ]
+                }
+            }
+        ],
+        "songSection": {
+            "desc": {
+                "H2": "soundtrack for this game",
+                "P": "Descreiption of this soundtrack n shiiiiiiiiii."
+            },
+            "link": "https://www.youtube.com/embed/upX2lG69Er4",
+            "songNames": [
+                "song 1",
+                "song 2",
+                "song 3",
+                "song 4",
+                "song 5"
+            ]
+        }
+    }
+]
