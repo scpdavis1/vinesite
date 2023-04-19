@@ -1,6 +1,16 @@
 /* Default Resolution rules*/
 
 /* Overall body rules */
+@font-face {
+    font-family: typesauce;
+    src: url("../fonts/TypesauceRegular-V1.0.0_by_MaxiGamer.otf") format("opentype");
+}
+@font-face {
+    font-family: typesauce;
+    font-weight: bold;
+    src: url("../fonts/TypesauceRegular-V1.0.0_by_MaxiGamer.otf") format("opentype");
+}
+
 body {
     color: white;
     background-color: #002d1c;
@@ -15,6 +25,7 @@ h1 {
     background-color: beige;
     position: absolute;
     top: -40px;
+    z-index: 1;
 }
 .skip a:focus {
     top: 20px;
@@ -43,6 +54,7 @@ nav a {
     border: solid 5px black;
     border-radius: 30px;
 }
+
 
 
 /* set up MMM grid */
@@ -123,6 +135,7 @@ includes hover text on image */
 .bio .platform {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content:space-around;
     background-color: rgb(73, 57, 57);
     border-radius: 30px;
@@ -135,7 +148,86 @@ includes hover text on image */
 
 
 /* Resolution 2 - Tablet*/
+@media screen and (min-width: 768px) {
+    
+    header {
+        position: relative;
+        background-image: url("../images/bannerSmall.png");
+        height: 200px;
+    }
+    header nav {
+        position: absolute;
+        bottom: 0;
+        
+        
+    }
 
+    .MMMContent {
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+    }
+    .hasOverlay p {
+        position: relative;
+        visibility: visible;
+        opacity: 1;
+        transition: none;
+    }
+
+
+    .bio img {
+        width: 300px;
+        height: 300px;
+    }
+    .bio .platform img {
+        width: 100px;
+        height: 100px;
+    }
+    .bio .platform {
+        flex-direction: row;
+    }
+
+
+}
 
 /* Resolution 3 - Desktop*/
+@media screen and (min-width: 1025px) {
+    .MMMContent {
+        grid-template-columns: auto auto auto auto;
+    }
+    .hasOverlay img {
+        width: 350px;
+        height: 350px;
+    }
+    .hasOverlay p {
+        margin: auto; 
+    }
 
+    .songList {
+        display: inline-block;
+    }
+}
+
+/* Prefers reduced motion*/
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; 
+    }
+    .skip a, .hasOverlay p{
+      -webkit-transition: none;
+      transition: none;        
+     }
+}
+
+.gameButton {
+    display: grid;
+    justify-content: center;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}

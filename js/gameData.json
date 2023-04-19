@@ -9,7 +9,10 @@
                 },
                 "imgOverlay": {
                     "IMG": [
-                        "./images/content/MarioMystery/lore.png"
+                        {
+                            "src": "./images/content/MarioMystery/lore.png",
+                            "alt": "Lore of Mario Mystery Meat"
+                        }
                     ],
                     "P": [
                         "Mario and Luigi have an endless supply of spaghetti. However, they always end up lacking meat."
@@ -23,15 +26,43 @@
                 },
                 "imgOverlay": {
                     "IMG": [
-                        "./images/content/MarioMystery/transitions/trans1.png",
-                        "./images/content/MarioMystery/transitions/trans2.png",
-                        "./images/content/MarioMystery/transitions/trans3.png",
-                        "./images/content/MarioMystery/transitions/trans4.png",
-                        "./images/content/MarioMystery/transitions/trans5.png",
-                        "./images/content/MarioMystery/transitions/trans6.png",
-                        "./images/content/MarioMystery/transitions/trans7.png",
-                        "./images/content/MarioMystery/transitions/trans8.png",
-                        "./images/content/MarioMystery/transitions/trans9.png"
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans1.png",
+                            "alt": "Transition 1"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans2.png",
+
+                            "alt": "Transition 2"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans3.png",
+                            "alt": "Transition 3"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans4.png",
+                            "alt": "Transition 4"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans5.png",
+                            "alt": "Transition 5"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans6.png",
+                            "alt": "Transition 6"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans7.png",
+                            "alt": "Transition 7"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans8.png",
+                            "alt": "Transition 8"
+                        },
+                        {
+                            "src": "./images/content/MarioMystery/transitions/trans9.png",
+                            "alt": "Transition 9"
+                        }
                     ],
                     "P": [
                         "The first transition. Entering the meat. Will finding meat for Spaghetti be your only quest?",
@@ -102,88 +133,100 @@
         }
     },
     {
-        "H1": "testGame",
+        "H1": "Supra Binyot Lande",
         "imgSection": [
             {
                 "desc": {
-                    "H2": "Test Image Section 1",
-                    "P": "This is the description for the test section with the above title!"
+                    "H2": "Storyline",
+                    "P": "Supra Binyot Lande is a comedic fan made game that follows Vinny Vinesauce as he adventures across the world. Each level, Vinny gains new power items and has to fight his enemies. Click or Tap the images for more info!!!"
                 },
                 "imgOverlay": {
                     "IMG": [
-                        "./images/content/romHacks/DM_title.jpg",
-                        "./images/content/romHacks/MGB_title.jpg",
-                        "./images/content/romHacks/MMM_lore.png",
-                        "./images/content/romHacks/MMM_Chatland.png",
-                        "./images/twitch-logo.png"
+                        {
+                            "src": "./images/content/binyotLande/startScreen.png",
+                            "alt": "game start screen"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/lore.png",
+                            "alt": "supra binyot lande lore"
+                        }
                     ],
                     "P": [
-                        "this is the first image",
-                        "this is the second image",
-                        "this is the third image",
-                        "this is the fouyrth image",
-                        "this is the fifth image"
+                        "The start screen to Vinny's adventure.",
+                        "This is the developer explaining the reason he made this game in Vinny's signature character accent. This accent is used a lot throughout the game."
                     ]
                 }
             },
             {
                 "desc": {
-                    "H2": "Test Image Section 2",
-                    "P": "This is the description for the test section with the above title!"
+                    "H2": "Level Design",
+                    "P": "The level design in this game is reminiscent of an MS-paint drawing... crude at best, but it does the Vinesauce memes justice. Each level has a different theme and new types of enemies to avoid."
                 },
                 "imgOverlay": {
                     "IMG": [
-                        "./images/content/romHacks/DM_title.jpg",
-                        "./images/content/romHacks/MGB_title.jpg",
-                        "./images/content/romHacks/MMM_lore.png",
-                        "./images/content/romHacks/MMM_Chatland.png",
-                        "./images/twitch-logo.png"
+                        {
+                            "src": "./images/content/binyotLande/level1.png",
+                            "alt": "Level 1"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/level2.png",
+                            "alt": "Level 2"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/level3.png",
+                            "alt": "Level 3"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/level4.png",
+                            "alt": "Level 4"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/level5.png",
+                            "alt": "Level 5"
+                        }
                     ],
                     "P": [
-                        "this is the first image",
-                        "this is the second image",
-                        "this is the third image",
-                        "this is the fouyrth image",
-                        "this is the fifth image"
+                        "Level 1 is a wooded area that features some familiar faces from other vinesauce content. This includes Meat, from Super Mario's Mystery meat. This level acts as an introduction to the game.",
+                        "Level 2 is almost a rip off of the super mario franchise. It features enemies from the original game, as well as Vinesauce renditions such as a version of mario seen in other vinesauce content.",
+                        "In this level, Vinny travels to Brooklyn and gets bit by a radioactive spider... Vinny has to swing on his web through some scaffolding while avoiding clowns and collecting New York style Pizza!",
+                        "Vinny travels to a bee hive. Having lost his spider powers, he has to platform around vineRizon and bees that fly around him.",
+                        "Level 5 is a kart racing level. Vinny has to avoid items that fell on the track in order to get where he needs to go!"
                     ]
                 }
             },
             {
                 "desc": {
-                    "H2": "Test Image Section 3",
-                    "P": "This is the description for the test section with the above title!"
+                    "H2": "Boss Fights",
+                    "P": "Between each level, you have to defeat Vinny's evil twin Binny, and also an enemy from his past he knows all too well..."
                 },
                 "imgOverlay": {
                     "IMG": [
-                        "./images/content/romHacks/DM_title.jpg",
-                        "./images/content/romHacks/MGB_title.jpg",
-                        "./images/content/romHacks/MMM_lore.png",
-                        "./images/content/romHacks/MMM_Chatland.png",
-                        "./images/twitch-logo.png"
-                    ],
+                        {
+                            "src": "./images/content/binyotLande/binny1.png",
+                            "alt": "Binny fight 1"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/binny2.png",
+
+                            "alt": "Binny fight 2"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/binny3.png",
+                            "alt": "Binny fight 3"
+                        },
+                        {
+                            "src": "./images/content/binyotLande/finalBoss.png",
+                            "alt": "HETHICC battle"
+                        }
+                        ],
                     "P": [
-                        "this is the first image",
-                        "this is the second image",
-                        "this is the third image",
-                        "this is the fouyrth image",
-                        "this is the fifth image"
+                        "The first boss is the introduction of Binny, Vinny's evil clone. In this fight, Binny Challenges Vinny to a Race because he is mad that people keep thinking he is Vinny.",
+                        "In this boss fight, Binny has had enough and has decided to fight Vinny in combat... This style of boss fighting sets the tone for the rest of the boss fights in the game.",
+                        "Thinking Binny was dead, Vinny was surprised to see Binny alive again but in the form of a ghost. They have the same fight and this time Vinny beats Binny once and for all.",
+                        "HETHICC is the final boss... HETHICC has been a meme in the vinesauce community for a long time, and when Vinny was put in a position where he had to fight him the crowd went crazy."
                     ]
                 }
             }
-        ],
-        "songSection": {
-            "desc": {
-                "H2": "soundtrack for this game",
-                "P": "Descreiption of this soundtrack n shiiiiiiiiii."
-            },
-            "link": "https://www.youtube.com/embed/upX2lG69Er4",
-            "songNames": [
-                "song 1",
-                "song 2",
-                "song 3",
-                "song 4",
-                "song 5"
-            ]
-        }
+        ]
     }
 ]

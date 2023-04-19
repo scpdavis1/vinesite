@@ -1,7 +1,8 @@
+
 var gameFile;
 var toRender = 0; //track which game is currently rendered
 
-    
+// create gamepage function    
 function createGamePage() {
     // Check if toRender is less than length.
     if (toRender >= gameFile.length)
@@ -36,8 +37,8 @@ function createGamePage() {
         for (let i = 0; i < numImg; i++) {
             //get just the hasOverlay div within it.
             var singleImg = imgTemplate.content.querySelector(".hasOverlay").cloneNode(true);
-            singleImg.querySelector("img").src = imgData.imgOverlay.IMG[i];
-            singleImg.querySelector("img").alt = "alt text";
+            singleImg.querySelector("img").src = imgData.imgOverlay.IMG[i].src;
+            singleImg.querySelector("img").alt = imgData.imgOverlay.IMG[i].alt;
             singleImg.querySelector("p").innerHTML = imgData.imgOverlay.P[i];
             
             //finished the single img, so append to the cur section clone
@@ -50,27 +51,30 @@ function createGamePage() {
 
     // Populate soundtrack section template.
 
-    var gameOST = songTemplate.content.cloneNode(true);
-    var songData = rendering.songSection;
+    if (rendering.songSection) {
+        var gameOST = songTemplate.content.cloneNode(true);
+        var songData = rendering.songSection;
 
-    //OST Description
-    gameOST.querySelector(".desc h2").innerHTML = songData.desc.H2;
-    gameOST.querySelector(".desc p").innerHTML = songData.desc.P;
+        //OST Description
+        gameOST.querySelector(".desc h2").innerHTML = songData.desc.H2;
+        gameOST.querySelector(".desc p").innerHTML = songData.desc.P;
 
-    // embed video
-    gameOST.querySelector("iframe").src = songData.link;
-    gameOST.querySelector("iframe").width = "300";
-    gameOST.querySelector("iframe").height = "200";
-    gameOST.querySelector("iframe").title = "Youtube video player";
-    gameOST.querySelector("iframe").frameborder = "0";
+        // embed video
+        gameOST.querySelector("iframe").src = songData.link;
+        gameOST.querySelector("iframe").width = "300";
+        gameOST.querySelector("iframe").height = "200";
+        gameOST.querySelector("iframe").title = "Youtube video player";
+        gameOST.querySelector("iframe").frameborder = "0";
+        
+        // create song list
+        songData.songNames.forEach((song) => {
+            var listItem = document.createElement("li");
+            listItem.innerHTML = song;
+            gameOST.querySelector("ul").appendChild(listItem);
+        });
+        templateEntry.appendChild(gameOST);
+    }
     
-    // create song list
-    songData.songNames.forEach((song) => {
-        var listItem = document.createElement("li");
-        listItem.innerHTML = song;
-        gameOST.querySelector("ul").appendChild(listItem);
-    });
-    templateEntry.appendChild(gameOST);
     // iterate toRender for the next press.
     toRender++;
 
@@ -98,3 +102,4 @@ document.getElementById("changeGameButton").addEventListener('click', () => {
     createGamePage();
     console.log(toRender);
 });
+
